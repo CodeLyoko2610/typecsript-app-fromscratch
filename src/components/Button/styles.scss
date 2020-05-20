@@ -1,0 +1,16 @@
+.btn {
+  &--primary {
+    background-color: green;
+    color: black;
+  }
+
+  &--secondary {
+    background-color: yellow;
+    color: black;
+  }
+
+  &--outlined {
+    background-color: none;
+    color: black;
+  }
+}
