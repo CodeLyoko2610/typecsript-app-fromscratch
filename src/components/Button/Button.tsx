@@ -25,7 +25,11 @@ const Button = ({
     'btn--secondary': color === 'secondary',
     'btn--outlined': variant === 'outlined',
   });
-  return <button className={buttonStyles}>{label}</button>;
+  return (
+    <button disabled className={buttonStyles}>
+      {label}
+    </button>
+  );
 };
 
 export default Button;
